@@ -11,6 +11,9 @@ function SportsCar(make, model, topSpeed) {
 	this.model=model
 	this.topSpeed=topSpeed
 }
+SportsCar.prototype.getMakeModel= function () {
+	return `${this.make}${this.model}`
+}
 SportsCar.prototype.getTopSpeed=function () {
 	return this.topSpeed
 }
