@@ -17,7 +17,7 @@ SportsCar.prototype.getMakeModel= function () {
 SportsCar.prototype.getTopSpeed=function () {
 	return this.topSpeed
 }
-
+SportsCar.__proto__=Car
 // Do not change the code below
 window.Car = Car;
 window.SportsCar = SportsCar;
